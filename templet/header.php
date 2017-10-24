@@ -8,7 +8,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
-<title>Megatron Template</title>
+<title>Star-Class</title>
+<link href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>images/icono3.jpg" rel="shortcut icon" type="image/png">
 <!-- CSS preloader -->
 <link href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>css/loader.css" rel="stylesheet">
 <!-- Bootstrap core CSS -->
@@ -203,13 +204,14 @@
         <div class="background">
           <div class="container"> 
             <!-- Logo -->
-            <div class="navbar-logo pull-left"> <a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>index.html"><img src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>images/header-logo.png" alt="Megatron"></a></div>
-            <div class="navbar-welcome pull-left compact-hidden hidden-xs">Default welcome msg!</div>
+            <div class="navbar-logo pull-left"> <a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>index.html"><img src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>images/header-logo3.jpg" alt="Megatron"></a></div>
+            <div class="navbar-welcome pull-left compact-hidden hidden-xs"></div>
             <div class="clearfix visible-sm"></div>
             <!-- //end Logo --> 
             <!-- Secondary menu -->
+			
             <div class="navbar-secondary-menu pull-right hidden-xs">
-              <div class="btn-group compact-hidden"> <a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#"  class="btn btn-xs btn-default dropdown-toggle" data-toggle="dropdown"> <span class="icon icon-vcard"></span> Account <span class="caret"></span> </a>
+             <?php /* <div class="btn-group compact-hidden"> <a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#"  class="btn btn-xs btn-default dropdown-toggle" data-toggle="dropdown"> <span class="icon icon-vcard"></span> Account <span class="caret"></span> </a>
                 <ul class="dropdown-menu" role="menu">
                   <li><a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#">Account</a></li>
                   <li><a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#">Wishlist</a></li>
@@ -241,23 +243,24 @@
                   <li><a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#">(€) Euro</a></li>
                   <li><a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#">(&pound;) British Pounds</a></li>
                 </ul>
-              </div>
-              <div class="btn-group compact-hidden"> <a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#"  class="btn btn-xs btn-default dropdown-toggle" data-toggle="dropdown"> <span class="icon icon-justice"></span> Compare (0) <span class="caret"></span> </a>
-                <div class="dropdown-menu pull-right shoppingcart-box empty" role="menu"> No items to compare </div>
-              </div>
-              <div class="btn-group"> <a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#"  class="btn btn-xs btn-default dropdown-toggle" data-toggle="dropdown"> <span class="compact-hidden">Cart - <strong>$245</strong></span> <span class="icon-xcart-animate"><span class="box">3</span><span class="handle"></span></span> </a>
-                <div class="dropdown-menu pull-right shoppingcart-box" role="menu"> Recently added item(s)
+              </div>*/ ?>
+              <div class="btn-group compact-hidden"> <a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#"  class="btn btn-xs btn-default dropdown-toggle" data-toggle="dropdown"> <span class="icon icon-justice"></span> Comparar (0) <span class="caret"></span> </a>
+                <div class="dropdown-menu pull-right shoppingcart-box empty" role="menu"> Ningun Artículo</div>
+              </div> 
+              <div class="btn-group"> <a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#"  class="btn btn-xs btn-default dropdown-toggle" data-toggle="dropdown"> <span class="compact-hidden">Carro - <strong>$245</strong></span> <span class="icon-xcart-animate"><span class="box">3</span><span class="handle"></span></span> </a>
+                <div class="dropdown-menu pull-right shoppingcart-box" role="menu">Reciente Agregado(s)
                   <ul class="list">
                     <li class="item"> <a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>product_default.html" class="preview-image"><img class="preview" src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>images/products/product-07-small.jpg" alt=""></a>
-                      <div class="description"> <a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#">Mauris et ligula quis</a> <strong class="price">1 x $44.95</strong> </div>
+                      <div class="description"> <a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#">Mercedes Benz</a> <strong class="price">1 x $44.95</strong> </div>
                     </li>
                   </ul>
                   <div class="total">Total: <strong>$44.95</strong></div>
-                  <a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#" class="btn btn-mega">Proceed to Checkout</a>
+                  <a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#" class="btn btn-mega">Pasar por la caja
+</a>
                   <div class="view-link"><a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>shopping_cart.html">View shopping cart </a></div>
                 </div>
               </div>
-            </div>
+            </div> 
             <!-- Secondary menu mobile -->
             <div class="navbar-secondary-menu pull-right compact-hidden visible-xs">
               <div class="btn-group visible-xs"> <a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#"  class="btn btn-xs btn-default dropdown-toggle" data-toggle="dropdown">En <span class="caret"></span> </a>
