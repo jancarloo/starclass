@@ -265,7 +265,7 @@ label {
 	border-color: #f5f5f5
 }
 .btn-mega {
-	background: #ee3b27;
+	background: #081924;
 	color: #fff!important;
 	font: .9em Mavenpro-black, Arial, Helvetica, sans-serif;
 	padding: 12px 14px;
@@ -273,8 +273,8 @@ label {
 	border-radius: 4px
 }
 .btn-mega:hover {
-	border-color: #ee3b27;
-	color: #ee3b27!important;
+	border-color: #081924;
+	color: #081924!important;
 	background: 0 0
 }
 .btn-mega.btn-mega-grey {
@@ -303,12 +303,12 @@ label {
 }
 .btn-mega.btn-inverse {
 	background: #fff;
-	border-color: #ee3b27;
-	color: #ee3b27!important
+	border-color: #081924;
+	color: #081924!important
 }
 .btn-mega.btn-inverse:hover {
-	background: #ee3b27;
-	border-color: #ee3b27;
+	background: #081924;
+	border-color: #081924;
 	color: #fff!important
 }
 .dropdown-menu {
@@ -327,7 +327,7 @@ label {
 	margin-left: 4px
 }
 .label-mega {
-	background: #ee3b27
+	background: #081924
 }
 .radio input[type=radio] {
 	position: relative;
@@ -839,7 +839,7 @@ label {
 	cursor: pointer
 }
 .wishlist-table .product-remove .icon { 
-	color:#ee3b27
+	color:#081924
 }
 .wishlist-table .product-add .icon { 
 	color:#000
@@ -867,7 +867,7 @@ label {
 }
 .slider-controls a:hover {
 	text-decoration: none;
-	color: #ee3b27
+	color: #081924
 }
 .slider-controls.min {
 	font-size: 1.5em
@@ -1089,7 +1089,7 @@ label {
 }
 .services-block-box .item {
 	color: #000;
-	border: 1px solid #ee3b27;
+	border: 1px solid #081924;
 	display: block;
 	padding: 12px
 }
@@ -1102,7 +1102,7 @@ label {
 	padding: .5em 0;
 	font: 1.384em Mavenpro-bold, Arial, Helvetica, sans-serif;
 	color: #fff;
-	background: #ee3b27;
+	background: #081924;
 	text-transform: uppercase
 }
 .services-block-box .full-text {
@@ -1111,7 +1111,7 @@ label {
 	padding: 1em 0;
 	font: 1.23em Mavenpro-bold, Arial, Helvetica, sans-serif;
 	color: #fff;
-	background: #ee3b27
+	background: #081924
 }
 .services-block-box .icon {
 	display: inline-block;
@@ -1120,7 +1120,7 @@ label {
 	width: 92px;
 	height: 92px;
 	border-radius: 50%;
-	background: #ee3b27;
+	background: #081924;
 	color: #fff;
 	font-size: 3.08em;
 	line-height: 2.55em
@@ -1175,8 +1175,8 @@ label {
 }
 .member-info .contact-icon:hover {
 	text-decoration: none;
-	border-color: #ee3b27;
-	background: #ee3b27;
+	border-color: #081924;
+	background: #081924;
 	color: #fff
 }
 .member-info .contact-icon:hover span {
@@ -1301,9 +1301,9 @@ body.back-bg .navbar-compact .background, body.back-bg .navbar-compact .backgrou
 	line-height: 1.7em
 }
 .back-to-top:hover {
-	background: #ee3b27;
+	background: #081924;
 	color: #fff;
-	border-color: #ee3b27
+	border-color: #081924
 }
 .navbar-height-inner {
 	height: 145px
@@ -1557,7 +1557,7 @@ header.variant4 .navbar-search {
 }
 .navbar-main-menu .item .btn-main {
 	position: relative;
-	border-bottom: 0 solid #ee3b27;
+	border-bottom: 0 solid #081924;
 	display: block;
 	height: 38px;
 	padding: 0 15px 20px;
@@ -1584,7 +1584,7 @@ header.variant4 .navbar-compact .navbar-main-menu-outer.black .navbar-main-menu 
 	text-decoration: none
 }
 .navbar-main-menu .active .btn-main, .navbar-main-menu .with-sub .btn-main:hover, .navbar-main-menu .current .btn-main {
-	border-bottom: 5px solid #ee3b27
+	border-bottom: 5px solid #081924
 }
 .navbar-main-menu .item .btn-main .icon {
 	font-size: 1.12em;
@@ -1649,7 +1649,7 @@ header.variant4 .navbar-compact .navbar-main-menu-outer.black .navbar-main-menu 
 }
 .navbar-main-submenu .button-up:hover {
 	text-decoration: none;
-	color: #ee3b27
+	color: #081924
 }
 .navbar-main-submenu .exclusive {
 	padding: 12px .8em 20px;
@@ -1665,7 +1665,7 @@ header.variant4 .navbar-compact .navbar-main-menu-outer.black .navbar-main-menu 
 	text-transform: uppercase
 }
 .navbar-main-submenu .exclusive .icon {
-	color: #ee3b27;
+	color: #081924;
 	font-size: 1.57em;
 	position: relative;
 	bottom: -4px;
@@ -1771,7 +1771,7 @@ header.variant4 .navbar-compact .navbar-main-menu-outer.black .navbar-main-menu 
 	height: 47px;
 	margin-bottom: -47px;
 	margin-right: 10px;
-	background: #ee3b27!important;
+	background: #081924!important;
 	padding: 6px 7px;
 	border-radius: 0 0 3px 3px;
 	cursor: pointer;
@@ -2232,8 +2232,8 @@ header.variant4 .navbar-compact .navbar-search {
 .pagination-main li a:hover, .pagination-main li.active a {
 	text-decoration: none;
 	color: #fff;
-	background: #ee3b27;
-	border-color: #ee3b27
+	background: #081924;
+	border-color: #081924
 }
 .pagination-main li.active a {
 	cursor: default
@@ -2642,8 +2642,8 @@ _:valid\0, .contacts-form input.form-control, .contacts-form textarea.form-contr
 .tags-list li a:hover {
 	text-decoration: none;
 	color: #fff;
-	background: #ee3b27;
-	border-color: #ee3b27
+	background: #081924;
+	border-color: #081924
 }
 .section-divider {
 	height: 47px
@@ -2657,7 +2657,7 @@ _:valid\0, .contacts-form input.form-control, .contacts-form textarea.form-contr
 }
 .rating {
 	display: block;
-	color: #ee3b27;
+	color: #081924;
 	font-size: 1.08em;
 	letter-spacing: -.1em;
 	padding-bottom: 4px
@@ -2671,7 +2671,7 @@ _:valid\0, .contacts-form input.form-control, .contacts-form textarea.form-contr
 	text-decoration: line-through
 }
 .price.new {
-	color: #ee3b27!important
+	color: #081924!important
 }
 .btn-select {
 	position: relative;
@@ -2843,7 +2843,7 @@ _:valid\0, .contacts-form input.form-control, .contacts-form textarea.form-contr
 .accordion-faq .panel-heading a {
 	display: block;
 	position: relative;
-	background: #ee3b27;
+	background: #081924;
 	font: 700 1.077em/1.2em Arial, Helvetica, sans-serif;
 	color: #fff;
 	padding: 10px 5px 12px 15px;
@@ -3001,7 +3001,7 @@ _:valid\0, .contacts-form input.form-control, .contacts-form textarea.form-contr
 	background: #fff
 }
 .product-controls-list .label-sale {
-	background: #ee3b27;
+	background: #081924;
 	color: #fff
 }
 .product-controls-list .label-new {
@@ -3038,7 +3038,7 @@ _:valid\0, .contacts-form input.form-control, .contacts-form textarea.form-contr
 .product-controls-list .cart {
 	font-size: 2em;
 	line-height: 2em;
-	color: #ee3b27;
+	color: #081924;
 	text-shadow: 1px 1px rgba(0, 0, 0, .19)
 }
 .product-controls-list.hide-right {
@@ -3173,7 +3173,7 @@ _:valid\0, .contacts-form input.form-control, .contacts-form textarea.form-contr
 }
 .product-view .close-view:hover {
 	text-decoration: none;
-	color: #ee3b27
+	color: #081924
 }
 .product-preview-popup .product-view .close-view {
 	position: absolute;
@@ -3520,7 +3520,7 @@ _:valid\0, .contacts-form input.form-control, .contacts-form textarea.form-contr
 	cursor: pointer
 }
 .product-description .product-options .icon.selected {
-	border-color: #EE3B27
+	border-color: #081924
 }
 .product-description .product-options .icon.disable {
 	cursor: default
@@ -3900,7 +3900,7 @@ _:valid\0, .contacts-form input.form-control, .contacts-form textarea.form-contr
 	padding-top: 2px
 }
 .twitter-widget a {
-	color: #ee3b27;
+	color: #081924;
 	text-decoration: underline
 }
 .twitter-widget .time {
@@ -3997,7 +3997,7 @@ _:valid\0, .contacts-form input.form-control, .contacts-form textarea.form-contr
 	margin-bottom: 15px
 }
 .nav-tabs {
-	border-bottom: 4px solid #ee3b27;
+	border-bottom: 4px solid #081924;
 	overflow: hidden;
 	white-space: nowrap;
 	position: relative
@@ -4021,8 +4021,8 @@ _:valid\0, .contacts-form input.form-control, .contacts-form textarea.form-contr
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
 	color: #fff;
 	cursor: default;
-	background-color: #ee3b27;
-	border: 1px solid #ee3b27!important;
+	background-color: #081924;
+	border: 1px solid #081924!important;
 	border-bottom-color: transparent
 }
 .tab-content {
@@ -4205,10 +4205,10 @@ _:valid\0, .contacts-form input.form-control, .contacts-form textarea.form-contr
 	-webkit-backface-visibility: hidden;
 }
 .filters-by-category li a.selected, .filters-by-category li a:hover {
-	border-color: #ee3b27
+	border-color: #081924
 }
 .filters-by-category li a.selected {
-	background: #ee3b27;
+	background: #081924;
 	color: #fff!important
 }
 .filters-by-category.header-filter {
@@ -4250,7 +4250,7 @@ _:valid\0, .contacts-form input.form-control, .contacts-form textarea.form-contr
 }
 .live-chat .head {
 	height: 32px;
-	background: #ee3b27;
+	background: #081924;
 	font: 1.23em/2.2em Mavenpro-medium, Arial, Helvetica, sans-serif;
 	color: #fff
 }
@@ -4402,7 +4402,7 @@ _:valid\0, .contacts-form input.form-control, .contacts-form textarea.form-contr
 	content: '\e07b'
 }
 .small-previews a:hover {
-	color: #ee3b27
+	color: #081924
 }
 .small-preview {
 	position: absolute;
@@ -4439,11 +4439,11 @@ _:valid\0, .contacts-form input.form-control, .contacts-form textarea.form-contr
 	font: 3.077em/1em Mavenpro-bold, Arial, Helvetica, sans-serif
 }
 .dropcap.color {
-	color: #ee3b27
+	color: #081924
 }
 .dropcap.dark {
 	color: #fff;
-	background-color: #ee3b27
+	background-color: #081924
 }
 .styled-list {
 	position: relative;
@@ -4469,7 +4469,7 @@ _:valid\0, .contacts-form input.form-control, .contacts-form textarea.form-contr
 	font-size: 14px
 }
 .styled-list li:before {
-	color: #ee3b27;
+	color: #081924;
 	float: left
 }
 .styled-list .circle li, .styled-list.circle li {
@@ -4499,7 +4499,7 @@ _:valid\0, .contacts-form input.form-control, .contacts-form textarea.form-contr
 }
 .styled-list ul.circle li:before {
 	content: "\25CB";
-	color: #ee3b27
+	color: #081924
 }
 ul.sitemap.styled-list.circle ul li:before {
 	content: "\25CF"
@@ -4550,12 +4550,12 @@ ul.sitemap.styled-list.circle ul ul li:before {
 	padding: 2px 2px 0
 }
 .color_mark {
-	background-color: #ee3b27;
+	background-color: #081924;
 	color: #fff;
 	padding: 2px 2px 0
 }
 .color, .color:hover {
-	color: #ee3b27
+	color: #081924
 }
 .underline {
 	text-decoration: underline
@@ -4565,7 +4565,7 @@ ul.sitemap.styled-list.circle ul ul li:before {
 }
 .blockquote {
 	position: relative;
-	border-top: 4px solid #ee3b27
+	border-top: 4px solid #081924
 }
 .blockquote .inside {
 	padding: 15px;
@@ -4573,7 +4573,7 @@ ul.sitemap.styled-list.circle ul ul li:before {
 }
 .testimonials {
 	position: relative;
-	border-top: 4px solid #ee3b27
+	border-top: 4px solid #081924
 }
 .testimonials .inside {
 	padding: 15px 15px 15px 114px;
@@ -4597,7 +4597,7 @@ ul.sitemap.styled-list.circle ul ul li:before {
 	height: 77px
 }
 .infobox {
-	border: 1px solid #ee3b27
+	border: 1px solid #081924
 }
 .infobox .inside {
 	padding: 15px 15px 15px 84px;
@@ -4608,7 +4608,7 @@ ul.sitemap.styled-list.circle ul ul li:before {
 	position: absolute;
 	top: 16px;
 	left: 16px;
-	color: #ee3b27;
+	color: #081924;
 	content: '\e063';
 	font-family: icomoon;
 	font-size: 4.23em;
@@ -4640,7 +4640,7 @@ ul.sitemap.styled-list.circle ul ul li:before {
 	height: 77px
 }
 .comment a {
-	color: #ee3b27;
+	color: #081924;
 	text-decoration: underline
 }
 .comment a:hover {
@@ -4676,7 +4676,7 @@ ul.sitemap.styled-list.circle ul ul li:before {
 	line-height: 2.25em
 }
 .icon-circle-sm.active, .icon-circle-xs.active, .icon-circle.active {
-	background: #ee3b27
+	background: #081924
 }
 .icon-circle-sm {
 	background: #e2e2e2;
@@ -4903,7 +4903,7 @@ ul.sitemap.styled-list.circle ul ul li:before {
 }
 
 .countdown-amount {
-	color: #ee3b27;
+	color: #081924;
 	font: 2em Mavenpro-black, Arial, Helvetica, sans-serif
 }
 @media (min-width:768px){
@@ -5034,7 +5034,7 @@ ul.sitemap.styled-list.circle ul ul li:before {
 .price-table.active {
 	margin-top: -22px;
 	padding: 20px 0;
-	border: 3px solid #ee3b27
+	border: 3px solid #081924
 }
 .price-table-title {
 	text-transform: uppercase;
@@ -5051,7 +5051,7 @@ ul.sitemap.styled-list.circle ul ul li:before {
 	padding: 17px 0
 }
 .price-table.active .price-table-price {
-	background: #ee3b27;
+	background: #081924;
 	color: #fff
 }
 .price-table ul {
@@ -5076,7 +5076,7 @@ ul.sitemap.styled-list.circle ul ul li:before {
 	margin: 18px 0
 }
 .flex-direction-nav a:hover {
-	color: #EE3B27
+	color: #081924
 }
 .fullwidthbanner-container, .fullwidthbanner-container .fullwidthbanner {
 	max-height: 1000px!important
@@ -5131,7 +5131,7 @@ ul.sitemap.styled-list.circle ul ul li:before {
 *display:inline
 }
 .carouFredSel .carouFredSel-controls .carouFredSel-buttons a:hover {
-	color: #ee3b27;
+	color: #081924;
 	text-decoration: none;
 }
 .carouFredSel .carouFredSel-controls .carouFredSel-buttons a:before {
@@ -5917,7 +5917,7 @@ header.variant4 .navbar-compact .navbar-search {
 	float: left;
 	width: 85%;
 	border: none;
-	border-left: 3px solid #ee3b27;
+	border-left: 3px solid #081924;
 	padding: 0
 }
 .responsive .tabs-left .tab-content {
@@ -5994,7 +5994,7 @@ header.variant4 .navbar-compact .navbar-search {
 	display: none
 }
 .responsive .tabsslider .carousel-next:hover, .responsive .tabsslider .carousel-prev:hover {
-	color: #ee3b27
+	color: #081924
 }
 .responsive .tabsslider a.carousel-next {
 	right: -2px;
@@ -7389,7 +7389,7 @@ transform:translateY(0)
 	display: inline-block
 }
 .services-block-dark a:hover .icon span {
-	color: #ee3b27;
+	color: #081924;
 	-o-transform: rotate(360deg);
 	-moz-transform: rotate(360deg);
 	-webkit-transform: rotate(360deg);

@@ -2,32 +2,37 @@
     <!-- Slider -->
     
     <section class="main-slider container hidden-xs">
-      <div class="owl-slider-outer"> <a class="owl-slider-prev"></a> <a class="owl-slider-next"></a>
-        <div class="owl-slider">
-			<div class="item">
-				<img src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>images/autos/2mb668zac.jpg" alt=""> 
-					<a src="<?php echo RUTA_ACTUAL; ?>" class="title-slide-01"> 
-						<span class="big">Venta</span> 
-						<span class="middle">Hasta 40% de Descuento</span> 
+		<div class="owl-slider-outer"> <a class="owl-slider-prev"></a> <a class="owl-slider-next"></a>
+			<div class="owl-slider">
+				<div class="item">
+					<img src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>images/autos/2mb668zac.jpg" alt=""> 
+						<a src="<?php echo RUTA_ACTUAL; ?>" class="title-slide-01"> 
+							<span class="big">Venta</span> 
+							<span class="middle">Hasta 40% de Descuento</span> 
+						</a>
+				</div>
+				<div class="item">
+					<img src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>images/autos/mbpys5507.jpg" alt=""> 
+						<a src="<?php echo RUTA_ACTUAL ; ?> " class="title-slide-02"> 
+							<span class="big">CGI</span> 
+							<span class="small">Cla 250</span> 
+							<span class="middle">Class 2014</span>
+						</a> 
+				</div>
+				<div class="item"><img src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>images/autos/mbc84abn.jpg" alt="">
+					<a src="<?php echo RUTA_ACTUAL ; ?> " class="title-slide-03"> 
+						<span class="big">Especial Oferta</span> 
+						<span class="middle">Ahorra dinero con tus compras</span> 
 					</a>
+				</div>
 			</div>
-			<div class="item">
-				<img src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>images/home_boxed_slider2-798x268.jpg" alt=""> 
-					<a src="<?php echo RUTA_ACTUAL ; ?> " class="title-slide-02"> 
-						<span class="big">Nueva</span> 
-						<span class="small">collection</span> 
-						<span class="middle">AUTUMN 2014</span>
-					</a> 
-			</div>
-        <div class="item"><img src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>images/home_boxed_slider3-798x268.jpg" alt=""> <a src="<?php echo RUTA_ACTUAL ; ?> " class="title-slide-03"> <span class="big">Special offer</span> <span class="middle">Save money with Lingerie SALE</span> </a></div>
-        </div>
-      </div>
+		</div>
       <div class="banners-block">
-        <div class="item"><a src="<?php echo RUTA_ACTUAL ; ?> "><img src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>images/banner1.jpg"  alt="">
+        <div class="item"><a src="<?php echo RUTA_ACTUAL ; ?> "><img src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>images/autos/2mb542z.jpg"  alt="">
           <div class="banner-text black"> 100%<br>
             RETINA READY</div>
           </a></div>
-        <div class="item"><a src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#"><img src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>images/banner2.jpg"  alt="">
+        <div class="item"><a src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#"><img src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>images/autos/mb168zd.jpg"  alt="">
           <div class="banner-text">
             <div class="inside">RESPONSIVE<br>
               LAYOUT</div>

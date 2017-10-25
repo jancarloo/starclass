@@ -34,7 +34,7 @@
 <div class="loader">
 	<div class="bubblingG"> <span id="bubblingG_1"> </span> <span id="bubblingG_2"> </span> <span id="bubblingG_3"> </span> </div>
 </div>
-<!-- Off Canvas Menu -->
+<!-- Off Canvas Menu Movil -->
 <nav id="off-canvas-menu" >
 	<div id="off-canvas-menu-title">MENU<span class="icon icon-cancel-3" id="off-canvas-menu-close"></span></div>
 	<ul class="expander-list">
@@ -45,6 +45,72 @@
 				<li><span class="name"><a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>index_corporate.html">Layout Corporative</a></span> </li>
 			</ul>
 		</li>
+		<li> <span class="name"> <span class="expander">-</span> <a href="listing.html">Marcas</a> </span>
+		  <ul>
+			<li> <span class="name"> <span class="expander">-</span> <a href="listing.html"><span class="icon-tags-2"></span>MERCEDES BENZ</a> </span>
+			  <ul>
+				<li><span class="name"><a href="listing.html">Club Dresses</a></span></li>
+				<li><span class="name"><a href="listing.html">Evening Dresses</a></span></li>
+				<li><span class="name"><a href="listing.html">Prom Dresses</a></span></li>
+			  </ul>
+			</li>
+			<li> <span class="name"> <span class="expander">-</span> <a href="listing.html"><span class="icon-tags-2"></span>AUDI</a> </span>
+			  <ul>
+				<li><span class="name"><a href="listing.html">Empty category #1</a></span></li>
+				<li><span class="name"><a href="listing.html">Empty category #2</a></span></li>
+				<li><span class="name"><a href="listing.html">Empty category #3</a></span></li>
+			  </ul>
+			</li>
+			<li> <span class="name"> <span class="expander">-</span> <a href="listing.html"><span class="icon-tags-2"></span>RANULT</a> </span>
+			  <ul>
+				<li><span class="name"><a href="listing.html">Empty category #4</a></span></li>
+				<li><span class="name"><a href="listing.html">Empty category #5</a></span></li>
+				<li><span class="name"><a href="listing.html">Empty category #6</a></span></li>
+			  </ul>
+			</li>
+			<li> <span class="name"> <span class="expander">-</span> <a href="listing.html"><span class="icon-tags-2"></span>BMW</a> </span>
+			  <ul>
+				<li><span class="name"><a href="listing.html">Empty category #7</a></span></li>
+				<li><span class="name"><a href="listing.html">Empty category #8</a></span></li>
+				<li><span class="name"><a href="listing.html">Empty category #9</a></span></li>
+			  </ul>
+			</li>
+			<li> <span class="name"> <span class="expander">-</span> <a href="listing.html"><span class="icon-tags-2"></span>NISSAN</a> </span>
+			  <ul>
+				<li><span class="name"><a href="listing.html">Empty category #10</a></span></li>
+				<li><span class="name"><a href="listing.html">Empty category #11</a></span></li>
+				<li><span class="name"><a href="listing.html">Empty category #12</a></span></li>
+			  </ul>
+			</li>
+			<li> <span class="name"> <span class="expander">-</span> <a href="listing.html"><span class="icon-tags-2"></span>DODGE</a> </span>
+			  <ul>
+				<li><span class="name"><a href="listing.html">Empty category #10</a></span></li>
+				<li><span class="name"><a href="listing.html">Empty category #11</a></span></li>
+				<li><span class="name"><a href="listing.html">Empty category #12</a></span></li>
+			  </ul>
+			</li>
+			<li> <span class="name"> <span class="expander">-</span> <a href="listing.html"><span class="icon-tags-2"></span>SEAT</a> </span>
+			  <ul>
+				<li><span class="name"><a href="listing.html">Empty category #16</a></span></li>
+				<li><span class="name"><a href="listing.html">Empty category #17</a></span></li>
+			  </ul>
+			</li>
+			<li> <span class="name"> <span class="expander">-</span> <a href="listing.html"><span class="icon-tags-2"></span>CADILLAC</a> </span>
+			  <ul>
+				<li><span class="name"><a href="listing.html">Empty category #18</a></span></li>
+				<li><span class="name"><a href="listing.html">Empty category #19</a></span></li>
+				<li><span class="name"><a href="listing.html">Empty category #20</a></span></li>
+			  </ul>
+			</li>
+			<li><span class="name"><a href="listing.html"><span class="icon-tags-2"></span>JEEP</a></span>
+			  <ul>
+				<li><span class="name"><a href="listing.html">Empty category #21</a></span></li>
+				<li><span class="name"><a href="listing.html">Empty category #22</a></span></li>
+				<li><span class="name"><a href="listing.html">Empty category #23</a></span></li>
+			  </ul>
+			</li>
+		  </ul>
+		</li>
 		<li> <span class="name"><span class="expander">-</span> <a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>blog.html">Nosotros</a></span>
 			<ul> 
 				<li><span class="name"><a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>blog_posts_table_view.html"> Table View </a> </span></li>
@@ -52,6 +118,7 @@
 		</li>
 		<li><span class="name"><a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>listing.html">Contacto</a></span></li>
 		<li><span class="name"><a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>contacts.html">Blog</a></span></li>
+		
 	</ul>
 </nav>
 <!-- //end Off Canvas Menu -->
@@ -116,7 +183,7 @@
 			<form class="navbar-search form-inline hidden-xs pull-right" role="form">
 			  <div class="form-group">
 				<button type="submit" class="button"><span class="icon-search-2"></span></button>
-				<input type="text" class="form-control" value="Search" onblur="if (this.value == '') {this.value = 'Search';}" onfocus="if(this.value == 'Search') {this.value = '';}">
+				<input type="text" class="form-control" value="Buscar" onblur="if (this.value == '') {this.value = 'Search';}" onfocus="if(this.value == 'Search') {this.value = '';}">
 			  </div>
 			  <div class="dropdown-search">
 				<ul>
@@ -149,38 +216,6 @@
 				</ul>
 			  </dt>
 			  <dd></dd>
-			  <dt class="item">
-				<ul class="sf-menu">
-				  <li> <a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>listing.html"> Nosotros </a>
-					<ul>
-					  <li> <a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>listing_big_products.html"> Usual </a> </li>
-					</ul>
-				  </li>
-				</ul>
-			  </dt>
-			  <dd></dd>
-			  <dt class="item">
-				<ul class="sf-menu">
-				  <li> <a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>product_default.html"> Contacto </a>
-					<ul>
-					  <li> <a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>product_default.html"> Product Page </a> </li>
-					</ul>
-				  </li>
-				</ul>
-			  </dt>
-			  <dd></dd>
-			  <dt class="item">
-				<ul class="sf-menu">
-				  <li> <a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>blog.html"> Blog </a>
-					<ul>                      <li><a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>blog_posts_table_view.html"> Table View </a> </li>
-					  <li><a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>blog_posts_time_line.html"> Time Line </a></li>
-					  <li> <a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>blog_single_post.html"> Single Post </a> </li>
-					</ul>
-				  </li>
-				</ul>
-			  </dt>
-			  <dd></dd>
-			  
 			  <dt class="item compact-hidden"> <a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#" class="btn-main line">Marcas</a> </dt>
 			  <dd class="item-content">
 				<div class="navbar-main-submenu">
@@ -285,11 +320,39 @@
 				  </ul>
 				</div>
 			  </dd>
-			  
+			  <dt class="item">
+				<ul class="sf-menu">
+				  <li> <a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>listing.html"> Nosotros </a>
+					<ul>
+					  <li> <a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>listing_big_products.html"> Usual </a> </li>
+					</ul>
+				  </li>
+				</ul>
+			  </dt>
+			  <dd></dd>
+			  <dt class="item">
+				<ul class="sf-menu">
+				  <li> <a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>product_default.html"> Contacto </a>
+					<ul>
+					  <li> <a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>product_default.html"> Product Page </a> </li>
+					</ul>
+				  </li>
+				</ul>
+			  </dt>
+			  <dd></dd>
+			  <dt class="item">
+				<ul class="sf-menu">
+				  <li> <a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>blog.html"> Blog </a>
+					<ul>                      <li><a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>blog_posts_table_view.html"> Table View </a> </li>
+					  <li><a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>blog_posts_time_line.html"> Time Line </a></li>
+					  <li> <a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>blog_single_post.html"> Single Post </a> </li>
+					</ul>
+				  </li>
+				</ul>
+			  </dt>
 			 <dd></dd>
 			</dl>
 			<!-- //end Main menu --> 
-			
 		  </div>
 		</div>
 		<!-- Mobile menu -->
@@ -299,11 +362,11 @@
 			<div class="nav-item item-02"><a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#"><span class="icon icon-vcard"></span></a>
 			  <div class="tab-content">
 				<ul class="menu-list">
-				  <li><a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#">Account</a></li>
-				  <li><a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#">Wishlist</a></li>
-				  <li><a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#">Checkout</a></li>
-				  <li><a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>login.html">Log In</a></li>
-				  <li><a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>login.html">Sign Up</a></li>
+				  <li><a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#">Cuenta</a></li>
+				  <li><a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#">Lista de deseos</a></li>
+				  <li><a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#">Revisar</a></li>
+				  <li><a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>login.html">Iniciar sesion</a></li>
+				  <li><a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>login.html">Registrate</a></li>
 				</ul>
 			  </div>
 			</div>
@@ -312,7 +375,7 @@
 				<form class="navbar-search form-inline" role="form">
 				  <div class="form-group">
 					<button type="submit" class="button"><span class="icon-search-2"></span></button>
-					<input type="text" class="form-control" value="Search" onblur="if (this.value == '') {this.value = 'Search';}" onfocus="if(this.value == 'Search') {this.value = '';}">
+					<input type="text" class="form-control" value="Buscar" onblur="if (this.value == '') {this.value = 'Search';}" onfocus="if(this.value == 'Search') {this.value = '';}">
 				  </div>
 				</form>
 				<!-- //end Search --> 
@@ -321,24 +384,24 @@
 			<div class="nav-item item-04"><a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#"><span class="icon-xcart-white">3</span></a>
 			  <div class="tab-content">
 				<div class="shoppingcart-box">
-				  <div class="title">Recently added item(s)</div>
+				  <div class="title">Artículo (s) agregados</div>
 				  <ul class="list">
 					<li class="item">
 					  <div class="icon-product-edit"><a class="icon icon-edit" href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#"></a></div>
 					  <div class="icon-product-delete"><a class="icon icon-trash-2" href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#"></a></div>
 					  <a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>product_default.html" class="preview-image"><img class="preview" src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>images/products/product-02-small.jpg" alt=""></a>
-					  <div class="description"> <a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#">Mauris et ligula quis</a> <strong class="price">1 x $44.95</strong> </div>
+					  <div class="description"> <a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#">Mercedes Benz</a> <strong class="price">1 x $400,000.00</strong> </div>
 					</li>
 					<li class="item">
 					  <div class="icon-product-edit"><a class="icon icon-edit" href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#"></a></div>
 					  <div class="icon-product-delete"><a class="icon icon-trash-2" href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#"></a></div>
 					  <a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>product_default.html" class="preview-image"><img class="preview" src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>images/products/product-03-small.jpg" alt=""></a>
-					  <div class="description"> <a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#">Mauris et ligula quis</a> <strong class="price">1 x $44.95</strong> </div>
+					  <div class="description"> <a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#">Mercedes Benz</a> <strong class="price">1 x $400,000.00</strong> </div>
 					</li>
 				  </ul>
-				  <div class="total">Total: <strong>$44.95</strong></div>
-				  <a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#" class="btn btn-mega">Proceed to Checkout</a>
-				  <div class="view-link"><a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>shopping_cart.html">View shopping cart </a></div>
+				  <div class="total">Total: <strong>$800,000.00</strong></div>
+				  <a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#" class="btn btn-mega">Proceder a comprar</a>
+				  <div class="view-link"><a href="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>shopping_cart.html">Terminar compra </a></div>
 				</div>
 			  </div>
 			</div>
@@ -348,7 +411,7 @@
 		<!-- //end Mobile menu --> 
 		<!-- Navbar switcher -->
 		<div class="navbar-switcher-container">
-		  <div class="navbar-switcher"> <span class="i-inactive"><img src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>images/icon-megatron.png" width="35" height="35" alt=""></span> <span class="i-active icon-cancel-3"></span> </div>
+		  <div class="navbar-switcher"> <span class="i-inactive"><img src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>images/mercedes/icono_mercedes.fw.png" width="35" height="35" alt=""></span> <span class="i-active icon-cancel-3"></span> </div>
 		</div>
 		<!-- //end Navbar switcher --> 
 		
