@@ -4,13 +4,26 @@
     <section class="main-slider container hidden-xs">
       <div class="owl-slider-outer"> <a class="owl-slider-prev"></a> <a class="owl-slider-next"></a>
         <div class="owl-slider">
-          <div class="item"><img src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>images/home_boxed_slider1-798x268.jpg" alt=""> <a src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>index.html" class="title-slide-01"> <span class="big">Sale</span> <span class="middle">up to 40% OFF</span> </a></div>
-          <div class="item"><img src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>images/home_boxed_slider2-798x268.jpg" alt=""> <a src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>index.html" class="title-slide-02"> <span class="big">New</span> <span class="small">collection</span> <span class="middle">AUTUMN 2014</span> </a> </div>
-          <div class="item"><img src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>images/home_boxed_slider3-798x268.jpg" alt=""> <a src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>index.html" class="title-slide-03"> <span class="big">Special offer</span> <span class="middle">Save money with Lingerie SALE</span> </a></div>
+			<div class="item">
+				<img src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>images/autos/2mb668zac.jpg" alt=""> 
+					<a src="<?php echo RUTA_ACTUAL; ?>" class="title-slide-01"> 
+						<span class="big">Venta</span> 
+						<span class="middle">Hasta 40% de Descuento</span> 
+					</a>
+			</div>
+			<div class="item">
+				<img src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>images/home_boxed_slider2-798x268.jpg" alt=""> 
+					<a src="<?php echo RUTA_ACTUAL ; ?> " class="title-slide-02"> 
+						<span class="big">Nueva</span> 
+						<span class="small">collection</span> 
+						<span class="middle">AUTUMN 2014</span>
+					</a> 
+			</div>
+        <div class="item"><img src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>images/home_boxed_slider3-798x268.jpg" alt=""> <a src="<?php echo RUTA_ACTUAL ; ?> " class="title-slide-03"> <span class="big">Special offer</span> <span class="middle">Save money with Lingerie SALE</span> </a></div>
         </div>
       </div>
       <div class="banners-block">
-        <div class="item"><a src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>#"><img src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>images/banner1.jpg"  alt="">
+        <div class="item"><a src="<?php echo RUTA_ACTUAL ; ?> "><img src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>images/banner1.jpg"  alt="">
           <div class="banner-text black"> 100%<br>
             RETINA READY</div>
           </a></div>
@@ -28,25 +41,26 @@
     <!-- Social widgets -->
     <section class="social-widgets hidden-xs">
       <ul class="items">
-        <li class="item item-01 facebook"> <a src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>social/facebook.html" class="tab-icon"><span class="icon-facebook-3"></span></a>
-          <div class="tab-content">
-            <div class="title">FACEBOOK</div>
-            <div class="loading"><img src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>images/ajax-loader.gif" class="ajaxloader" alt="loader"></div>
-          </div>
+        <li class="item item-01 facebook">
+			<a src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>social/facebook.html" class="tab-icon">&nbsp;<span class="icon-facebook-3 centered"></span></a>
+			<div class="tab-content">
+				<div class="title">FACEBOOK</div>
+				<div class="loading"><img src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>images/ajax-loader.gif" class="ajaxloader" alt="loader"></div>
+			</div>
         </li>
-        <li class="item item-02 twitter"> <a src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>social/twitter.html" class="tab-icon"><span class="icon-twitter-3"></span></a>
+        <li class="item item-02 twitter"> <a src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>social/twitter.html" class="tab-icon">&nbsp;<span class="icon-twitter-3"></span></a>
           <div class="tab-content">
             <div class="title">TWITTER FEEDS</div>
             <div class="loading"><img src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>images/ajax-loader.gif" class="ajaxloader" alt="loader"></div>
           </div>
         </li>
-        <li class="item item-03 youtube"> <a src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>social/youtubevideo.html" class="tab-icon"><span class="icon icon-youtube-3"></span></a>
+        <li class="item item-03 youtube"> <a src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>social/youtubevideo.html" class="tab-icon">&nbsp;<span class="icon icon-youtube-3"></span></a>
           <div class="tab-content">
             <div class="title">Video</div>
             <div class="loading"><img src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>images/ajax-loader.gif" class="ajaxloader" alt="loader"></div>
           </div>
         </li>
-        <li class="item item-04 contacts"> <a src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>social/googlemap.html" class="tab-icon"><span class="icon-globe"></span></a>
+        <li class="item item-04 contacts"> <a src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>social/googlemap.html" class="tab-icon">&nbsp;<span class="icon-globe"></span></a>
           <div class="tab-content">
             <div class="title">Find Us</div>
             <div class="loading"><img src="<?php echo RUTA_ACTUAL.BASE_TEMPLET; ?>images/ajax-loader.gif" class="ajaxloader" alt="loader"></div>
